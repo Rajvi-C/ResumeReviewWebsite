@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f4f8;
+}
+
+/* Header Styling */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #4a90e2; /* Calm blue */
+  color: #fff;
+  border-bottom: 3px solid #3b7dc4; /* Stronger blue for the line */
+}
+
+header h1 {
+  margin: 0;
+  font-size: 26px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+}
+
+.profile-button {
+  width: 50px; /* Adjust as needed */
+  height: 50px; /* Adjust as needed */
+  border: 2px solid #fff; /* White border */
+  border-radius: 50%; /* Circular shape */
+  background-color: #50e3c2; /* Soft mint green */
+  overflow: hidden; /* Ensures the image stays within the circle */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.profile-button:hover {
+  transform: scale(1.1); /* Slightly enlarge on hover */
+}
+
+.profile-button img {
+  width: 150%; /* Cover the button */
+  height: 150%; /* Cover the button */
+  border-radius: 50%; /* Makes the image circular */
+  object-fit: cover; /* Ensures the image fills the circle without distortion */
+}
+
+/* Footer Styling */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #4a90e2; /* Match the header color */
+  color: #fff;
+  border-top: 3px solid #3b7dc4; /* Same blue line for consistency */
+  font-size: 14px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+footer p {
+  margin: 0;
+}
