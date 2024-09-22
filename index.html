@@ -27,14 +27,115 @@
       </nav>
     </header>
 
-    <!-- Main Content -->
-    <main>
-      <!-- Content will go here -->
-    </main>
+    <div class="welcome-section">
+      <h2>Welcome to Resume Review Hub!</h2>
+      <p>
+        Your one-stop solution for professional resume reviews by top industry
+        experts. Book your session with our expert reviewers below.
+      </p>
+    </div>
+
+    <div class="reviewers-section">
+      <h2 class="heading">Meet Our Reviewers</h2>
+
+      <div class="reviewer-card">
+        <img src="images/nidhiProfile.jpg" alt="Reviewer Name" />
+        <h3>Nidhi Bodar</h3>
+        <p>Senior Data Scientist at Zenith</p>
+        <a
+          href="https://www.linkedin.com/in/nidhi-bodar-43207615a/"
+          target="_blank"
+          >Connect on LinkedIn</a
+        >
+        <p>
+          <a href="mailto:nidhibodar17@gmail.com"
+            >Email : nidhibodar17@gmail.com</a
+          >
+        </p>
+        <button class="book-btn">Book Now</button>
+      </div>
+
+      <div class="reviewer-card">
+        <img src="images/laxProfile.jpeg" alt="Reviewer Name" />
+        <h3>Lax Kyada</h3>
+        <p>Senior Software Engineer at Bectran</p>
+        <a
+          href="https://www.linkedin.com/in/laxkyada/?originalSubdomain=in"
+          target="_blank"
+          >Connect on LinkedIn</a
+        >
+        <p>
+          <a href="mailto:laxkyada1999@gmail.com"
+            >Email : laxkyada1999@gmail.com</a
+          >
+        </p>
+        <button class="book-btn">Book Now</button>
+      </div>
+
+      <div class="reviewer-card">
+        <img src="images/sakshProfile.jpeg" alt="Reviewer Name" />
+        <h3>Sakshi Mehta</h3>
+        <p>Senior Data Analyst at Fastenal</p>
+        <a href="https://www.linkedin.com/in/sakshimehta27/" target="_blank"
+          >Connect on LinkedIn</a
+        >
+        <p>
+          <a href="mailto:sakshimehta@gmail.com"
+            >Email : sakshimehta@gmail.com</a
+          >
+        </p>
+        <button class="book-btn">Book Now</button>
+      </div>
+    </div>
+    <div id="pricing" class="section pricing-table">
+      <h2 class="heading">Resume Review Services</h2>
+      <table>
+        <tr>
+          <th>Service Type</th>
+          <th>Price</th>
+          <th>Duration</th>
+        </tr>
+        <tr>
+          <td>Basic Review</td>
+          <td>$50</td>
+          <td>30 minutes</td>
+        </tr>
+        <tr>
+          <td>Professional Review</td>
+          <td>$100</td>
+          <td>1 hour</td>
+        </tr>
+        <tr>
+          <td>Executive Review</td>
+          <td>$200</td>
+          <td>90 minutes</td>
+        </tr>
+      </table>
+    </div>
+
+    <div id="book-slot" class="section">
+      <h2 class="heading">Book a Slot</h2>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="date">Preferred Date:</label>
+        <input type="date" id="date" name="date" required />
+
+        <label for="time">Preferred Time:</label>
+        <input type="time" id="time" name="time" required />
+
+        <button type="submit">Book Now</button>
+      </form>
+    </div>
 
     <!-- Footer Section -->
     <footer>
       <p>&copy; 2024 Resume Review Hub. All rights reserved.</p>
+      <p>Contact us: <a href="tel:+1234567890">+1 234-567-890</a></p>
     </footer>
   </body>
 </html>

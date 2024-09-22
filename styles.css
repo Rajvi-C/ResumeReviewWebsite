@@ -1,7 +1,9 @@
 body {
   margin: 0;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #f0f4f8;
+  background-color: #f9f9f9;
+  color: #333;
+  width: 100%;
 }
 
 /* Header Styling */
@@ -12,7 +14,7 @@ header {
   padding: 20px;
   background-color: #4a90e2; /* Calm blue */
   color: #fff;
-  border-bottom: 3px solid #3b7dc4; /* Stronger blue for the line */
+  border-bottom: 3px solid #222324; /* Stronger blue for the line */
 }
 
 header h1 {
@@ -52,13 +54,186 @@ header h1 {
   object-fit: cover; /* Ensures the image fills the circle without distortion */
 }
 
+/*Welcome Section Styling*/
+.welcome-section {
+  text-align: center;
+  width: 100%;
+  background-color: #ffffff;
+  border-bottom: 2px solid #e3e3e3;
+}
+
+.welcome-section h2 {
+  margin-top: 0;
+  padding-top: 10px;
+  text-align: center;
+  font-size: 32px;
+  color: #4a90e2;
+}
+
+.welcome-section p {
+  font-size: 18px;
+  color: #555;
+  margin-top: 10px;
+}
+
+/* Reviewers Section */
+.reviewers-section {
+  padding-right: 20px;
+  padding-bottom: 20px;
+  margin: 0;
+  width: 100%;
+  text-align: center;
+  border-bottom: 2px solid #e3e3e3;
+}
+
+.heading {
+  margin-top: 0;
+  padding-top: 10px;
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #4a90e2;
+}
+
+/* Reviewer Card */
+.reviewer-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  margin: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: inline-block;
+  width: 300px;
+  vertical-align: top;
+}
+
+.reviewer-card img {
+  width: 150px;
+  height: 220px;
+  margin-bottom: 15px;
+}
+
+.reviewer-card h3 {
+  font-size: 22px;
+  margin: 10px 0;
+  color: #333;
+}
+
+.reviewer-card p {
+  font-size: 16px;
+  color: #777;
+  margin: 5px 0;
+}
+
+.reviewer-card a {
+  display: inline-block;
+  color: #4a90e2;
+  text-decoration: none;
+}
+
+.reviewer-card a:hover {
+  text-decoration: underline;
+}
+
+/* Book Now Button */
+.book-btn {
+  padding: 10px 20px;
+  background-color: #50e3c2;
+  color: #fff;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.book-btn:hover {
+  background-color: #3bbf9a;
+}
+
+.section {
+  padding: 10px 20px;
+  border-bottom: 2px solid #e3e3e3;
+  margin-bottom: 20px;
+  padding-bottom: 30px;
+}
+
+.pricing-table {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.pricing-table table {
+  margin: 0 auto;
+  border-collapse: collapse;
+  width: 80%; /* Adjust width as needed */
+}
+
+.pricing-table th,
+.pricing-table td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: center;
+}
+
+.pricing-table th {
+  background-color: #4a90e2;
+  color: white;
+}
+
+.pricing-table tr:nth-child(even) {
+  background-color: #f2f2f2; /* Light gray for alternate rows */
+}
+
+/* Book Slot Section */
+#book-slot {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+#book-slot form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 400px; /* Limit the width of the form */
+  margin: 0 auto;
+}
+
+#book-slot label {
+  margin: 10px 0 5px;
+  font-size: 16px;
+}
+
+#book-slot input {
+  padding: 10px;
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+#book-slot button {
+  padding: 10px 20px;
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#book-slot button:hover {
+  background-color: #3b7dc4;
+}
 /* Footer Styling */
 footer {
   text-align: center;
   padding: 20px;
   background-color: #4a90e2; /* Match the header color */
   color: #fff;
-  border-top: 3px solid #3b7dc4; /* Same blue line for consistency */
+  border-top: 3px solid #222324; /* Same blue line for consistency */
   font-size: 14px;
   position: fixed;
   bottom: 0;
