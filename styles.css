@@ -12,9 +12,9 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 20px;
-  background-color: #4a90e2; /* Calm blue */
+  background-color: #4a90e2;
   color: #fff;
-  border-bottom: 3px solid #222324; /* Stronger blue for the line */
+  border-bottom: 3px solid #222324;
 }
 
 header h1 {
@@ -30,12 +30,12 @@ header h1 {
 }
 
 .profile-button {
-  width: 50px; /* Adjust as needed */
-  height: 50px; /* Adjust as needed */
-  border: 2px solid #fff; /* White border */
-  border-radius: 50%; /* Circular shape */
-  background-color: #50e3c2; /* Soft mint green */
-  overflow: hidden; /* Ensures the image stays within the circle */
+  width: 50px;
+  height: 50px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  background-color: #50e3c2;
+  overflow: hidden;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -44,14 +44,14 @@ header h1 {
 }
 
 .profile-button:hover {
-  transform: scale(1.1); /* Slightly enlarge on hover */
+  transform: scale(1.1);
 }
 
 .profile-button img {
-  width: 150%; /* Cover the button */
-  height: 150%; /* Cover the button */
-  border-radius: 50%; /* Makes the image circular */
-  object-fit: cover; /* Ensures the image fills the circle without distortion */
+  width: 150%;
+  height: 150%;
+  border-radius: 50%;
+  object-fit: cover;
 }
 
 /*Welcome Section Styling*/
@@ -160,6 +160,7 @@ header h1 {
   padding-bottom: 30px;
 }
 
+/*Pricing Section Styling*/
 .pricing-table {
   text-align: center;
   margin-bottom: 20px;
@@ -184,7 +185,7 @@ header h1 {
 }
 
 .pricing-table tr:nth-child(even) {
-  background-color: #f2f2f2; /* Light gray for alternate rows */
+  background-color: #f2f2f2;
 }
 
 /* Book Slot Section */
@@ -197,7 +198,7 @@ header h1 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-width: 400px; /* Limit the width of the form */
+  max-width: 400px;
   margin: 0 auto;
 }
 
